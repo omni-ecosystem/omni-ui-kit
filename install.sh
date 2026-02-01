@@ -2,7 +2,7 @@
 
 set -e
 
-REPO_URL="git@github.com:nickojs/omni-ui-kit.git"
+REPO_URL="git@github.com:omni-ecosystem/omni-ui-kit.git"
 INSTALL_DIR="$HOME/.omni-ecosystem"
 TARGET_DIR="$INSTALL_DIR/omni-ui-kit"
 
