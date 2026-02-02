@@ -1,19 +1,19 @@
 # omni-ui-kit
 
-Terminal styling primitives for bash — colors, UI components, and animations.
+Terminal styling primitives for omni ecosystem: colors, UI components, and animations. This is intended to be used *together* with other TUI apps as a base for UI handling, not run individually. The following commands are for testing purposes only.
 
 ## Usage
 
 ```bash
-source libs/omni-ui-kit/index.sh
+source omni-ui-kit/index.sh
 ```
 
 Or load individual modules:
 
 ```bash
-source libs/omni-ui-kit/colors.sh      # just colors
-source libs/omni-ui-kit/ui.sh          # colors + UI components
-source libs/omni-ui-kit/animations.sh  # colors + loading spinner
+source omni-ui-kit/colors.sh      # just colors
+source omni-ui-kit/ui.sh          # colors + UI components
+source omni-ui-kit/animations.sh  # colors + loading spinner
 ```
 
 `ui.sh` and `animations.sh` auto-source `colors.sh` if needed.
