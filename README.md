@@ -2,6 +2,16 @@
 
 Terminal styling primitives for omni ecosystem: colors, UI components, and animations. This is intended to be used *together* with other TUI apps as a base for UI handling, not run individually. The following commands are for testing purposes only.
 
+## Installation
+
+Run the install script to clone the repository to `~/.omni-ecosystem/omni-ui-kit`:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/omni-ecosystem/omni-ui-kit/refs/heads/main/install.sh | bash
+```
+
+The script will create the installation directory if needed. Running it again will update an existing installation. To remove, run `./uninstall.sh` from the installation directory.
+
 ## Usage
 
 ```bash
